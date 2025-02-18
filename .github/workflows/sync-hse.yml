@@ -36,7 +36,7 @@ jobs:
 
     - name: Copy HSE folder to Repo B
       run: |
-        cp -r repo_a/HSE/* .
+        cp -r repo_a/"HSE University"/* .
         rm -rf repo_a
 
     - name: Commit and Push changes
